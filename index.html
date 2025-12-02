@@ -456,11 +456,16 @@
                 const saved = localStorage.getItem('carbonMaterials');
                 return saved ? JSON.parse(saved) : {
                     '钢铁': 2.3,
+					'铸铁': 2.56,
+					'不锈钢': 2.20,
                     '铝': 11.0,
-                    '铜': 4.0,
+                    '铜': 5.79,
                     '水泥': 0.87,
-                    '塑料': 3.4,
-                    '木材': 0.5
+                    'PVC塑料': 3.2,
+					'PE塑料': 4.8,
+					'合成橡胶': 2.4,
+                    '木材': 0.5,
+					
                 };
             }
 
@@ -713,7 +718,7 @@
                 此网页仅供郑州大学2025级水利与交通学院在读生人工智能大作业使用
             </p>
             <p style="margin-bottom: 10px;">
-                数据源于网络 仅供参考
+                数据源于[China Products Carbon Footprint Factors Database 2010-2022] 仅供参考 
             </p>
             <div style="
                 margin-top: 15px;
@@ -730,4 +735,5 @@
 </html>
 </body>
 </html>
+
 
